@@ -6,17 +6,9 @@ import { Container, Content, Text, View } from "native-base";
 import Modal from "react-native-modalbox";
 import MainStackRouter from "./Routers/MainStackRouter";
 import ProgressBar from "./components/loaders/ProgressBar";
-
-<<<<<<< HEAD
-<<<<<<< HEAD
 import { Container, Content, Text, View ,} from 'native-base';
 import Modal from 'react-native-modalbox';
-=======
 import theme from "./themes/base-theme";
->>>>>>> 7e5102f5df78ce39ff2d6e5bb1eabcf3dea9ac20
-=======
-import theme from "./themes/base-theme";
->>>>>>> 7e5102f5df78ce39ff2d6e5bb1eabcf3dea9ac20
 
 const styles = StyleSheet.create({
   container: {
@@ -42,15 +34,6 @@ class App extends Component {
       downloadProgress: 0
     };
   }
-
-<<<<<<< HEAD
-<<<<<<< HEAD
- 
-    componentDidMount() {
- 
-=======
-=======
->>>>>>> 7e5102f5df78ce39ff2d6e5bb1eabcf3dea9ac20
   componentDidMount() {
     CodePush.sync(
       { updateDialog: true, installMode: CodePush.InstallMode.IMMEDIATE },
@@ -76,10 +59,7 @@ class App extends Component {
       }
     );
   }
-<<<<<<< HEAD
->>>>>>> 7e5102f5df78ce39ff2d6e5bb1eabcf3dea9ac20
-=======
->>>>>>> 7e5102f5df78ce39ff2d6e5bb1eabcf3dea9ac20
+
 
   render() {
     if (this.state.showDownloadingModal) {
