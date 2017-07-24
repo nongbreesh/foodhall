@@ -8,9 +8,17 @@ var { StyleSheet } = React;
 module.exports = StyleSheet.create({
 	sidebar: {
  		flex: 1,
-        padding: 10,
+        padding: 0,
         paddingRight: 0,	        
-        paddingTop: 30,
- 		backgroundColor: '#271D1D'
+        paddingTop: 0,
+ 		backgroundColor: '#FFFFFF', 
     },
+    listitem:{
+       flexDirection:'row' ,
+      flex: 1,
+                          padding:4,
+                          justifyContent: 'flex-start',
+                          alignItems: 'stretch',
+                          backgroundColor: "rgba(0,0,0,0)",
+    }
 });

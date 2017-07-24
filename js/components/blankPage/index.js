@@ -1,17 +1,23 @@
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import {
+  Container,
+  Header,
+  Title,
+  Content,
+  Text,
+  Button,
+  Icon,
+  Left,
+  Right,
+  Body
+} from "native-base";
 
-'use strict';
-
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-
-import { openDrawer } from '../../actions/drawer';
-import { popRoute } from '../../actions/route';
-
-import { Container, Header, Title, Content, Text, Button, Icon } from 'native-base';
-
-import myTheme from '../../themes/base-theme';
+import styles from "./styles";
 
 class BlankPage extends Component {
+<<<<<<< HEAD
+<<<<<<< HEAD
 
     popRoute() {
         this.props.popRoute();
@@ -22,7 +28,7 @@ class BlankPage extends Component {
         const { props: { name, index, list } } = this;
 
         return (
-            <Container theme={myTheme} style={{backgroundColor: '#565051'}}>
+            <Container theme={myTheme} style={{backgroundColor: '#F9F8F8'}}>
                 <Header>
                     <Button transparent onPress={() => this.popRoute()}>
                         <Icon name='ios-arrow-back' />
@@ -30,9 +36,7 @@ class BlankPage extends Component {
 
                     <Title>{(name) ? name : 'Blank Page'}</Title>
 
-                    <Button transparent onPress={this.props.openDrawer}>
-                        <Icon name='ios-menu' />
-                    </Button>
+               
                 </Header>
 
                 <Content padder>
@@ -43,21 +47,64 @@ class BlankPage extends Component {
             </Container>
         )
     }
+=======
+=======
+>>>>>>> 7e5102f5df78ce39ff2d6e5bb1eabcf3dea9ac20
+  static navigationOptions = {
+    header: null
+  };
+  static propTypes = {
+    name: React.PropTypes.string,
+    index: React.PropTypes.number,
+    list: React.PropTypes.arrayOf(React.PropTypes.string),
+    openDrawer: React.PropTypes.func
+  };
+
+  render() {
+    const { props: { name, index, list } } = this;
+    console.log(this.props.navigation, "000000000");
+    return (
+      <Container style={styles.container}>
+        <Header>
+          <Left>
+            <Button transparent onPress={() => this.props.navigation.goBack()}>
+              <Icon name="ios-arrow-back" />
+            </Button>
+          </Left>
+
+          <Body>
+            <Title>{name ? this.props.name : "Blank Page"}</Title>
+          </Body>
+
+          <Right />
+        </Header>
+
+        <Content padder>
+          <Text>
+            {this.props.navigation.state.params.name.item !== undefined
+              ? this.props.navigation.state.params.name.item
+              : "Create Something Awesome . . ."}
+          </Text>
+        </Content>
+      </Container>
+    );
+  }
+<<<<<<< HEAD
+>>>>>>> 7e5102f5df78ce39ff2d6e5bb1eabcf3dea9ac20
+=======
+>>>>>>> 7e5102f5df78ce39ff2d6e5bb1eabcf3dea9ac20
 }
 
 function bindAction(dispatch) {
-    return {
-        openDrawer: ()=>dispatch(openDrawer()),
-        popRoute: () => dispatch(popRoute())
-    }
+  return {
+    openDrawer: () => dispatch(openDrawer())
+  };
 }
 
-function mapStateToProps(state) {
-    return {
-        name: state.user.name,
-        index: state.list.selectedIndex,
-        list: state.list.list
-    };
-}
+const mapStateToProps = state => ({
+  name: state.user.name,
+  index: state.list.selectedIndex,
+  list: state.list.list
+});
 
 export default connect(mapStateToProps, bindAction)(BlankPage);

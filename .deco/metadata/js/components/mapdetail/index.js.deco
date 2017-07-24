@@ -1,0 +1,269 @@
+{
+	"liveValues": [
+		{
+			"range": {
+				"from": {
+					"line": 146,
+					"ch": 37
+				},
+				"to": {
+					"line": 146,
+					"ch": 39
+				}
+			},
+			"type": "number",
+			"name": "Width",
+			"max": 600,
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 147,
+					"ch": 38
+				},
+				"to": {
+					"line": 147,
+					"ch": 40
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 151,
+					"ch": 40
+				},
+				"to": {
+					"line": 151,
+					"ch": 49
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 160,
+					"ch": 38
+				},
+				"to": {
+					"line": 160,
+					"ch": 40
+				}
+			},
+			"type": "number",
+			"name": "ActiveOpacity",
+			"min": 0,
+			"max": 100,
+			"group": "TOUCHABLE OPACITY"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 171,
+					"ch": 43
+				},
+				"to": {
+					"line": 171,
+					"ch": 51
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "JustifyContent",
+			"type": "string",
+			"name": "JustifyContent",
+			"group": "VIEW 2"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 172,
+					"ch": 38
+				},
+				"to": {
+					"line": 172,
+					"ch": 46
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "AlignItems",
+			"type": "string",
+			"name": "AlignItems",
+			"group": "VIEW 2"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 180,
+					"ch": 40
+				},
+				"to": {
+					"line": 180,
+					"ch": 48
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "AlignItems",
+			"type": "string",
+			"name": "AlignItems",
+			"group": "VIEW 2"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 181,
+					"ch": 34
+				},
+				"to": {
+					"line": 181,
+					"ch": 54
+				}
+			},
+			"editWith": "colorPicker",
+			"type": "string",
+			"name": "Color",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 182,
+					"ch": 37
+				},
+				"to": {
+					"line": 182,
+					"ch": 39
+				}
+			},
+			"type": "number",
+			"name": "FontSize",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 183,
+					"ch": 39
+				},
+				"to": {
+					"line": 183,
+					"ch": 47
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "FontWeight",
+			"type": "string",
+			"name": "FontWeight",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 184,
+					"ch": 39
+				},
+				"to": {
+					"line": 184,
+					"ch": 55
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "FontFamily",
+			"type": "string",
+			"name": "FontFamily",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 192,
+					"ch": 43
+				},
+				"to": {
+					"line": 192,
+					"ch": 53
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "JustifyContent",
+			"type": "string",
+			"name": "JustifyContent",
+			"group": "VIEW 2"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 193,
+					"ch": 39
+				},
+				"to": {
+					"line": 193,
+					"ch": 47
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "AlignItems",
+			"type": "string",
+			"name": "AlignItems",
+			"group": "VIEW 2"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 197,
+					"ch": 37
+				},
+				"to": {
+					"line": 197,
+					"ch": 39
+				}
+			},
+			"type": "number",
+			"name": "Width",
+			"max": 600,
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 198,
+					"ch": 38
+				},
+				"to": {
+					"line": 198,
+					"ch": 40
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 201,
+					"ch": 40
+				},
+				"to": {
+					"line": 201,
+					"ch": 49
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE"
+		}
+	]
+}

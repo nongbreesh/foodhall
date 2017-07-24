@@ -1,0 +1,54 @@
+{
+	"liveValues": [
+		{
+			"range": {
+				"from": {
+					"line": 19,
+					"ch": 42
+				},
+				"to": {
+					"line": 19,
+					"ch": 54
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "JustifyContent",
+			"type": "string",
+			"name": "JustifyContent",
+			"group": "VIEW 2"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 20,
+					"ch": 38
+				},
+				"to": {
+					"line": 20,
+					"ch": 47
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "AlignItems",
+			"type": "string",
+			"name": "AlignItems",
+			"group": "VIEW 2"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 21,
+					"ch": 43
+				},
+				"to": {
+					"line": 21,
+					"ch": 58
+				}
+			},
+			"editWith": "colorPicker",
+			"type": "string",
+			"name": "BackgroundColor",
+			"group": "VIEW 2"
+		}
+	]
+}

@@ -36,27 +36,30 @@ export default function (state:State = initialState, action:Action): State {
     // For sidebar navigation
     if (action.type === REPLACE_OR_PUSH_ROUTE) {
         let routes = state.routes;
+        //console.log(routes[routes.length - 1]);
+//         if(routes[routes.length - 1] == 'home') {
+//             // If top route is home and user navigates to a route other than home, then push
+//             if(action.route != 'home')
+//                 globalNav.navigator.push({id: action.route, passProps: action.passProps});
 
-        if(routes[routes.length - 1] == 'home') {
-            // If top route is home and user navigates to a route other than home, then push
-            if(action.route != 'home')
-                globalNav.navigator.push({id: action.route, passProps: action.passProps});
+//             // If top route is home and user navigates to home, do nothing
+//             else 
+//                 routes = [];
+//         }
 
-            // If top route is home and user navigates to home, do nothing
-            else 
-                routes = [];
-        }
-
-        else {
-            if(action.route == 'home') {
-                globalNav.navigator.resetTo({id: 'home', passProps: action.passProps});
-                routes = [];
-            }
-            else {
-                globalNav.navigator.replaceWithAnimation({id: action.route, passProps: action.passProps});
+//         else {
+//             if(action.route == 'home') {
+//                 globalNav.navigator.resetTo({id: 'home', passProps: action.passProps});
+//                 routes = [];
+//             }
+//             else {
+//                 globalNav.navigator.replaceWithAnimation({id: action.route, passProps: action.passProps});
+//                 routes.pop();
+//             }
+//         }
+      
+                     globalNav.navigator.resetTo({id: action.route, passProps: action.passProps});
                 routes.pop();
-            }
-        }
 
         return {
             routes: [...routes, action.route]
@@ -64,11 +67,9 @@ export default function (state:State = initialState, action:Action): State {
     }
 
     if (action.type === POP_ROUTE) {
-        globalNav.navigator.pop({passProps: action.passProps});
-        
+        globalNav.navigator.pop({passProps: action.passProps}); 
         let routes = state.routes;
-        routes.pop();
-        
+        routes.pop(); 
         return {
             routes: routes
         }

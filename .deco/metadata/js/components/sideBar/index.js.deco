@@ -1,0 +1,495 @@
+{
+	"liveValues": [
+		{
+			"range": {
+				"from": {
+					"line": 30,
+					"ch": 24
+				},
+				"to": {
+					"line": 30,
+					"ch": 27
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 33,
+					"ch": 26
+				},
+				"to": {
+					"line": 33,
+					"ch": 33
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 39,
+					"ch": 32
+				},
+				"to": {
+					"line": 39,
+					"ch": 42
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "JustifyContent",
+			"type": "string",
+			"name": "JustifyContent",
+			"group": "VIEW"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 40,
+					"ch": 28
+				},
+				"to": {
+					"line": 40,
+					"ch": 37
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "AlignItems",
+			"type": "string",
+			"name": "AlignItems",
+			"group": "VIEW"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 48,
+					"ch": 30
+				},
+				"to": {
+					"line": 48,
+					"ch": 32
+				}
+			},
+			"type": "number",
+			"name": "Width",
+			"max": 600,
+			"group": "IMAGE 2"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 49,
+					"ch": 31
+				},
+				"to": {
+					"line": 49,
+					"ch": 33
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE 2"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 53,
+					"ch": 33
+				},
+				"to": {
+					"line": 53,
+					"ch": 42
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE 2"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 58,
+					"ch": 22
+				},
+				"to": {
+					"line": 58,
+					"ch": 43
+				}
+			},
+			"editWith": "colorPicker",
+			"type": "string",
+			"name": "Color",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 59,
+					"ch": 25
+				},
+				"to": {
+					"line": 59,
+					"ch": 27
+				}
+			},
+			"type": "number",
+			"name": "FontSize",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 60,
+					"ch": 27
+				},
+				"to": {
+					"line": 60,
+					"ch": 35
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "FontWeight",
+			"type": "string",
+			"name": "FontWeight",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 61,
+					"ch": 27
+				},
+				"to": {
+					"line": 61,
+					"ch": 43
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "FontFamily",
+			"type": "string",
+			"name": "FontFamily",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 67,
+					"ch": 22
+				},
+				"to": {
+					"line": 67,
+					"ch": 43
+				}
+			},
+			"editWith": "colorPicker",
+			"type": "string",
+			"name": "Color",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 68,
+					"ch": 25
+				},
+				"to": {
+					"line": 68,
+					"ch": 27
+				}
+			},
+			"type": "number",
+			"name": "FontSize",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 69,
+					"ch": 27
+				},
+				"to": {
+					"line": 69,
+					"ch": 35
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "FontWeight",
+			"type": "string",
+			"name": "FontWeight",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 70,
+					"ch": 27
+				},
+				"to": {
+					"line": 70,
+					"ch": 43
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "FontFamily",
+			"type": "string",
+			"name": "FontFamily",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 84,
+					"ch": 35
+				},
+				"to": {
+					"line": 84,
+					"ch": 37
+				}
+			},
+			"type": "number",
+			"name": "Width",
+			"max": 600,
+			"group": "IMAGE 3"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 85,
+					"ch": 36
+				},
+				"to": {
+					"line": 85,
+					"ch": 38
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE 3"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 88,
+					"ch": 38
+				},
+				"to": {
+					"line": 88,
+					"ch": 47
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE 3"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 99,
+					"ch": 35
+				},
+				"to": {
+					"line": 99,
+					"ch": 37
+				}
+			},
+			"type": "number",
+			"name": "Width",
+			"max": 600,
+			"group": "IMAGE 3"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 100,
+					"ch": 36
+				},
+				"to": {
+					"line": 100,
+					"ch": 38
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE 3"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 103,
+					"ch": 38
+				},
+				"to": {
+					"line": 103,
+					"ch": 47
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE 3"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 114,
+					"ch": 35
+				},
+				"to": {
+					"line": 114,
+					"ch": 37
+				}
+			},
+			"type": "number",
+			"name": "Width",
+			"max": 600,
+			"group": "IMAGE 3"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 115,
+					"ch": 36
+				},
+				"to": {
+					"line": 115,
+					"ch": 38
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE 3"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 118,
+					"ch": 38
+				},
+				"to": {
+					"line": 118,
+					"ch": 47
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE 3"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 129,
+					"ch": 35
+				},
+				"to": {
+					"line": 129,
+					"ch": 37
+				}
+			},
+			"type": "number",
+			"name": "Width",
+			"max": 600,
+			"group": "IMAGE 3"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 130,
+					"ch": 36
+				},
+				"to": {
+					"line": 130,
+					"ch": 38
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE 3"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 133,
+					"ch": 38
+				},
+				"to": {
+					"line": 133,
+					"ch": 47
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE 3"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 144,
+					"ch": 35
+				},
+				"to": {
+					"line": 144,
+					"ch": 37
+				}
+			},
+			"type": "number",
+			"name": "Width",
+			"max": 600,
+			"group": "IMAGE 3"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 145,
+					"ch": 36
+				},
+				"to": {
+					"line": 145,
+					"ch": 38
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE 3"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 148,
+					"ch": 38
+				},
+				"to": {
+					"line": 148,
+					"ch": 47
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE 3"
+		}
+	]
+}

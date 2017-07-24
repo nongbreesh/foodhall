@@ -1,0 +1,236 @@
+{
+	"liveValues": [
+		{
+			"range": {
+				"from": {
+					"line": 122,
+					"ch": 26
+				},
+				"to": {
+					"line": 122,
+					"ch": 28
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 126,
+					"ch": 26
+				},
+				"to": {
+					"line": 126,
+					"ch": 33
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 192,
+					"ch": 25
+				},
+				"to": {
+					"line": 192,
+					"ch": 27
+				}
+			},
+			"type": "number",
+			"name": "ActiveOpacity",
+			"min": 0,
+			"max": 100,
+			"group": "TOUCHABLE OPACITY"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 196,
+					"ch": 26
+				},
+				"to": {
+					"line": 196,
+					"ch": 29
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 199,
+					"ch": 26
+				},
+				"to": {
+					"line": 199,
+					"ch": 33
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 204,
+					"ch": 26
+				},
+				"to": {
+					"line": 204,
+					"ch": 29
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 208,
+					"ch": 26
+				},
+				"to": {
+					"line": 208,
+					"ch": 33
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 215,
+					"ch": 26
+				},
+				"to": {
+					"line": 215,
+					"ch": 28
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 221,
+					"ch": 26
+				},
+				"to": {
+					"line": 221,
+					"ch": 33
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 229,
+					"ch": 26
+				},
+				"to": {
+					"line": 229,
+					"ch": 28
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 235,
+					"ch": 26
+				},
+				"to": {
+					"line": 235,
+					"ch": 33
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 242,
+					"ch": 26
+				},
+				"to": {
+					"line": 242,
+					"ch": 28
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 248,
+					"ch": 26
+				},
+				"to": {
+					"line": 248,
+					"ch": 33
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 270,
+					"ch": 25
+				},
+				"to": {
+					"line": 270,
+					"ch": 27
+				}
+			},
+			"type": "number",
+			"name": "ActiveOpacity",
+			"min": 0,
+			"max": 100,
+			"group": "TOUCHABLE OPACITY"
+		}
+	]
+}

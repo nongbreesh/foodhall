@@ -1,7 +1,21 @@
 rootProject.name = 'NativeStarterKit'
+<<<<<<< HEAD
+<<<<<<< HEAD
 
 include ':app'
+include ':react-native-toast'
+project(':react-native-toast').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-toast/android')
+include ':react-native-icons'
+project(':react-native-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-icons/android')
+include ':react-native-fbsdk'
+project(':react-native-fbsdk').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fbsdk/android')
+include ':react-native-facebook-login'
+project(':react-native-facebook-login').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-facebook-login/android')
+=======
+>>>>>>> 7e5102f5df78ce39ff2d6e5bb1eabcf3dea9ac20
+=======
+>>>>>>> 7e5102f5df78ce39ff2d6e5bb1eabcf3dea9ac20
 include ':react-native-code-push'
 project(':react-native-code-push').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-code-push/android/app')
-include ':react-native-vector-icons'
-project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+
+include ':app'

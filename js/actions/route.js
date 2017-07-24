@@ -32,7 +32,7 @@ export function replaceOrPushRoute(route:string, passProps:any):Action {
     }
 }
 
-export function popRoute(passProps:any):Action {
+export function popRoute(passProps:any):Action { 
     return {
         type: POP_ROUTE,
         passProps: passProps

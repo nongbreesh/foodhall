@@ -1,0 +1,299 @@
+{
+	"liveValues": [
+		{
+			"range": {
+				"from": {
+					"line": 139,
+					"ch": 32
+				},
+				"to": {
+					"line": 139,
+					"ch": 39
+				}
+			},
+			"editWith": "colorPicker",
+			"type": "string",
+			"name": "Color",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 140,
+					"ch": 35
+				},
+				"to": {
+					"line": 140,
+					"ch": 37
+				}
+			},
+			"type": "number",
+			"name": "FontSize",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 142,
+					"ch": 37
+				},
+				"to": {
+					"line": 142,
+					"ch": 45
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "FontWeight",
+			"type": "string",
+			"name": "FontWeight",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 143,
+					"ch": 37
+				},
+				"to": {
+					"line": 143,
+					"ch": 53
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "FontFamily",
+			"type": "string",
+			"name": "FontFamily",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 158,
+					"ch": 32
+				},
+				"to": {
+					"line": 158,
+					"ch": 53
+				}
+			},
+			"editWith": "colorPicker",
+			"type": "string",
+			"name": "Color",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 159,
+					"ch": 35
+				},
+				"to": {
+					"line": 159,
+					"ch": 37
+				}
+			},
+			"type": "number",
+			"name": "FontSize",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 161,
+					"ch": 37
+				},
+				"to": {
+					"line": 161,
+					"ch": 45
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "FontWeight",
+			"type": "string",
+			"name": "FontWeight",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 162,
+					"ch": 37
+				},
+				"to": {
+					"line": 162,
+					"ch": 53
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "FontFamily",
+			"type": "string",
+			"name": "FontFamily",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 182,
+					"ch": 32
+				},
+				"to": {
+					"line": 182,
+					"ch": 47
+				}
+			},
+			"editWith": "colorPicker",
+			"type": "string",
+			"name": "Color",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 185,
+					"ch": 37
+				},
+				"to": {
+					"line": 185,
+					"ch": 42
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "FontWeight",
+			"type": "string",
+			"name": "FontWeight",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 187,
+					"ch": 37
+				},
+				"to": {
+					"line": 187,
+					"ch": 53
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "FontFamily",
+			"type": "string",
+			"name": "FontFamily",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 209,
+					"ch": 32
+				},
+				"to": {
+					"line": 209,
+					"ch": 53
+				}
+			},
+			"editWith": "colorPicker",
+			"type": "string",
+			"name": "Color",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 210,
+					"ch": 35
+				},
+				"to": {
+					"line": 210,
+					"ch": 37
+				}
+			},
+			"type": "number",
+			"name": "FontSize",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 212,
+					"ch": 37
+				},
+				"to": {
+					"line": 212,
+					"ch": 45
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "FontWeight",
+			"type": "string",
+			"name": "FontWeight",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 213,
+					"ch": 37
+				},
+				"to": {
+					"line": 213,
+					"ch": 53
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "FontFamily",
+			"type": "string",
+			"name": "FontFamily",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 220,
+					"ch": 32
+				},
+				"to": {
+					"line": 220,
+					"ch": 47
+				}
+			},
+			"editWith": "colorPicker",
+			"type": "string",
+			"name": "Color",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 223,
+					"ch": 37
+				},
+				"to": {
+					"line": 223,
+					"ch": 42
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "FontWeight",
+			"type": "string",
+			"name": "FontWeight",
+			"group": "TEXT"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 226,
+					"ch": 37
+				},
+				"to": {
+					"line": 226,
+					"ch": 53
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "FontFamily",
+			"type": "string",
+			"name": "FontFamily",
+			"group": "TEXT"
+		}
+	]
+}

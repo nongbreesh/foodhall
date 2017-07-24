@@ -10,8 +10,7 @@ import { Container, Content, Text } from 'native-base';
 import myTheme from '../../themes/base-theme';
 
 
-class Index extends Component {
-
+class Index extends Component { 
     render() {
         return (
             <Container theme={myTheme}>

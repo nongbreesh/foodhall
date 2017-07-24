@@ -1,22 +1,21 @@
 /* @flow */
-'use strict';
 
-import React from 'react';
-import { ProgressViewIOS} from 'react-native';
-import NativeBaseComponent from 'native-base/Components/Base/NativeBaseComponent';
-import computeProps from 'native-base/Utils/computeProps';
+import React, { Component } from 'react';
+import { ProgressViewIOS } from 'react-native';
 
-export default class ProgressBarNB extends NativeBaseComponent {
+export default class ProgressBarNB extends Component {
 
 
+  render() {
 
-    render() {
-        return(
-            <ProgressViewIOS  progress={this.props.progress ? this.props.progress/100 : 0.5}
-                              progressTintColor={this.props.color ? this.props.color : this.props.inverse ?
-                              					this.getTheme().inverseProgressColor :
-                                                this.getTheme().defaultProgressColor} />
-        );
-    }
+    return (
+      <ProgressViewIOS
+        {...this.props}
+        progress={this.props.progress ? this.props.progress / 100 : 0.5}
+        progressTintColor={this.props.color ? this.props.color : '#FFF'}
+        trackTintColor='rgba(255,255,255,0.5)'
+      />
+    );
+  }
 
 }

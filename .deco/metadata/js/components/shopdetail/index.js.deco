@@ -1,0 +1,269 @@
+{
+	"liveValues": [
+		{
+			"range": {
+				"from": {
+					"line": 90,
+					"ch": 25
+				},
+				"to": {
+					"line": 90,
+					"ch": 27
+				}
+			},
+			"type": "number",
+			"name": "ActiveOpacity",
+			"min": 0,
+			"max": 100,
+			"group": "TOUCHABLE OPACITY"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 106,
+					"ch": 25
+				},
+				"to": {
+					"line": 106,
+					"ch": 27
+				}
+			},
+			"type": "number",
+			"name": "ActiveOpacity",
+			"min": 0,
+			"max": 100,
+			"group": "TOUCHABLE OPACITY"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 141,
+					"ch": 32
+				},
+				"to": {
+					"line": 141,
+					"ch": 35
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 144,
+					"ch": 32
+				},
+				"to": {
+					"line": 144,
+					"ch": 39
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 149,
+					"ch": 32
+				},
+				"to": {
+					"line": 149,
+					"ch": 35
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 153,
+					"ch": 32
+				},
+				"to": {
+					"line": 153,
+					"ch": 39
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 160,
+					"ch": 32
+				},
+				"to": {
+					"line": 160,
+					"ch": 34
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 166,
+					"ch": 32
+				},
+				"to": {
+					"line": 166,
+					"ch": 39
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 174,
+					"ch": 32
+				},
+				"to": {
+					"line": 174,
+					"ch": 34
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 180,
+					"ch": 32
+				},
+				"to": {
+					"line": 180,
+					"ch": 39
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 187,
+					"ch": 32
+				},
+				"to": {
+					"line": 187,
+					"ch": 34
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 193,
+					"ch": 32
+				},
+				"to": {
+					"line": 193,
+					"ch": 39
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 217,
+					"ch": 32
+				},
+				"to": {
+					"line": 217,
+					"ch": 34
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 221,
+					"ch": 32
+				},
+				"to": {
+					"line": 221,
+					"ch": 39
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 250,
+					"ch": 34
+				},
+				"to": {
+					"line": 250,
+					"ch": 36
+				}
+			},
+			"type": "number",
+			"name": "Height",
+			"max": 600,
+			"group": "IMAGE"
+		},
+		{
+			"range": {
+				"from": {
+					"line": 253,
+					"ch": 36
+				},
+				"to": {
+					"line": 253,
+					"ch": 45
+				}
+			},
+			"editWith": "dropdown",
+			"dropdownOptions": "ResizeMode",
+			"type": "string",
+			"name": "ResizeMode",
+			"group": "IMAGE"
+		}
+	]
+}
