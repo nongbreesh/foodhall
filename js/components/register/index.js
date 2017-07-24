@@ -312,8 +312,7 @@ class Register extends Component {
               style={{
                 marginTop:24,
                 color: "rgba(108,108,108,1)",
-                fontSize: 18,
-                fontWeight: 'normal',
+                fontSize: 18, 
                 fontFamily: 'Helvetica Neue',
                 fontWeight:'600',
               }}>

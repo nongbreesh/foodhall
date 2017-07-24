@@ -16,9 +16,7 @@ import {
 import styles from "./styles";
 
 class BlankPage extends Component {
-<<<<<<< HEAD
-<<<<<<< HEAD
-
+ 
     popRoute() {
         this.props.popRoute();
     }
@@ -46,10 +44,7 @@ class BlankPage extends Component {
                 </Content>
             </Container>
         )
-    }
-=======
-=======
->>>>>>> 7e5102f5df78ce39ff2d6e5bb1eabcf3dea9ac20
+    } 
   static navigationOptions = {
     header: null
   };
@@ -60,39 +55,7 @@ class BlankPage extends Component {
     openDrawer: React.PropTypes.func
   };
 
-  render() {
-    const { props: { name, index, list } } = this;
-    console.log(this.props.navigation, "000000000");
-    return (
-      <Container style={styles.container}>
-        <Header>
-          <Left>
-            <Button transparent onPress={() => this.props.navigation.goBack()}>
-              <Icon name="ios-arrow-back" />
-            </Button>
-          </Left>
-
-          <Body>
-            <Title>{name ? this.props.name : "Blank Page"}</Title>
-          </Body>
-
-          <Right />
-        </Header>
-
-        <Content padder>
-          <Text>
-            {this.props.navigation.state.params.name.item !== undefined
-              ? this.props.navigation.state.params.name.item
-              : "Create Something Awesome . . ."}
-          </Text>
-        </Content>
-      </Container>
-    );
-  }
-<<<<<<< HEAD
->>>>>>> 7e5102f5df78ce39ff2d6e5bb1eabcf3dea9ac20
-=======
->>>>>>> 7e5102f5df78ce39ff2d6e5bb1eabcf3dea9ac20
+   
 }
 
 function bindAction(dispatch) {

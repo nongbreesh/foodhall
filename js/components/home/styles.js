@@ -1,10 +1,5 @@
 
 const React = require('react-native');
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-var React = require('react-native');
-
 var { StyleSheet } = React;
 
 module.exports = StyleSheet.create({
@@ -28,11 +23,8 @@ module.exports = StyleSheet.create({
   bottom: 0,
   right: 0,
 },
-});
-=======
-=======
->>>>>>> 7e5102f5df78ce39ff2d6e5bb1eabcf3dea9ac20
-const { StyleSheet } = React;
+}); 
+ 
 export default {
   container: {
     backgroundColor: '#FBFAFA',
@@ -49,8 +41,4 @@ export default {
   mt: {
     marginTop: 18,
   },
-};
-<<<<<<< HEAD
->>>>>>> 7e5102f5df78ce39ff2d6e5bb1eabcf3dea9ac20
-=======
->>>>>>> 7e5102f5df78ce39ff2d6e5bb1eabcf3dea9ac20
+}; 

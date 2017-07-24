@@ -5,8 +5,7 @@ export const SET_INDEX = "SET_INDEX";
 export const SET_SHOPDETAIL = "SET_SHOPDETAIL";
 export const SET_ฺBASKET = "SET_ฺBASKET";
 export const SET_LASTESTSENDOTP = "SET_LASTESTSENDOTP";
-export const SET_LIST = "SET_LIST";
-export const SET_INDEX = 'SET_INDEX';
+export const SET_LIST = "SET_LIST"; 
 
 export function setIndex(index:number):Action {
   return {
